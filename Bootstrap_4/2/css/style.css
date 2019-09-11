@@ -1,0 +1,246 @@
+/* ------------------------------------------- General ------------------------------------------- */
+
+/* Estilos para todos los elementos */
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* Tipo de letra */
+body {
+    font-family: sans-serif;
+}
+
+/* ------------------------------------- Barra de navegacion ------------------------------------- */
+
+/* Posicion y estilo de la barra de navegacion */
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+/* Fondo de la barra de navegacion */
+.navbar {
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    padding: 0 !important;
+}
+
+/* Tamaño de los botones del menu */
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+/* Color y tamaño de letra de botones */
+.navbar-nav li a {
+    color: #ffffff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+/* Boton del menu en modo responsivo */
+.fa-bars {
+    color: #ffffff;
+    font-size: 30px !important;
+}
+
+/* Alineacion del menu en modo responsivo */
+.navbar-toggler {
+    outline: none !important;
+}
+
+/* ------------------------------------------- Banner ------------------------------------------- */
+
+/* Color de fondo */
+#banner {
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    color: #ffffff;
+    padding-top: 5%;
+}
+
+/* Tamaño de titulo */
+.titulo-promo {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+/* Boton de tutoriales */
+.play-btn {
+    width: 45px;
+    margin: 5px;
+}
+
+/* Detalles del boton de tutoriales */
+#banner a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* ------------------------------------------- Servicios ------------------------------------------- */
+
+/* Espacio con la seccion anterior */
+#servicios {
+    padding: 80px 0;
+}
+
+/* Tamaño de la imagen */
+.service-img {
+    width: 100px;
+    margin-top: 20px;
+}
+
+/* Espacio del titulo */
+.services {
+    padding: 20px;
+}
+
+/* Titulo de la seccion */
+.services h4 {
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+/* Linea 1 debajo del titulo */
+.title::before {
+    content: '';
+    background: #7b1798;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+/* Linea 2 debajo del titulo */
+.title::after {
+    content: '';
+    background: #7b1798;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+
+/* Boton */
+#servicios .btn-primary {
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+/* ------------------------------------------- Acerca de ------------------------------------------- */
+
+/* Contenedor principal */
+#acerca-de {
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+/* Titulo 1 */
+.acerca-titulo {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 8%;    
+}
+
+/* Margenes de la lista */
+#acerca-de ul li {
+    margin: 10px 0;
+}
+
+/* Margenes de la lista */
+#acerca-de ul {
+    margin-left: 20px;
+}
+
+/* ------------------------------------------- Testimonios ------------------------------------------- */
+
+/* Area de testimonios */
+#testimonios {
+    margin: 80px 0;
+}
+
+/* Estilo de columnas */
+.testimonios {
+    border-left: 4px solid #7b1798;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* Estilos de imagenes */
+.testimonios img {
+    height: 70px;
+    width: 70px;
+    margin: 0 10px;
+}
+
+/* Nombre de testimonios */
+.user-detalles {
+    display: inline-block;
+    font-size: 12px;
+}
+
+/* ------------------------------------------- Social media ------------------------------------------- */
+
+/* Contenedor */
+#social-media {
+    background: #f8f9fa;
+    padding: 70px 0;
+}
+
+/* Titulo */
+#social-media p {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+/* Diseño iconos */
+.social-icons i {
+    color: #7b1798;
+    transition: 0.5s;
+}
+
+/* Animacion iconos */
+.social-icons a:hover i {
+    transform: translateY(-15px);
+}
+
+/* ------------------------------------------- Footer ------------------------------------------- */
+
+/* Contenedor */
+#footer {
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    color: #ffffff;
+    margin-top: 3%;
+}
+
+/* Input correo */
+#footer .form-control {
+    box-shadow: none;
+    border: none;
+}
+
+/* Boton unirme */
+#footer .btn-primary {
+    border: none;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+/* Boton unirme al entrar el mouse */
+#footer .btn-primary:hover {
+    transition: 1s;
+    border: none;
+    background-image: linear-gradient(to left, #a517ba, #5f1782);
+}
